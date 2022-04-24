@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baho-Mc</title>
+    <style type="text/css">
+        :root {
+            --yesil: #3B8526;
+            --mavi: #43AA8B;
+            --beyaz: #E6E6E6;
+            --siyah: black;
+        }
+
+        @font-face {
+            font-family: Margarine;
+            src: url(Margarine-Regular.ttf);
+        }
+
+        body,
+        html {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+
+        }
+
+        body {
+            background-color: var(--yesil);
+            font-family: Margarine;
+            color: var(--beyaz);
+
+        }
+
+        p {
+            font-size: 13pt;
+        }
+
+
+        .baslik {
+            width: 100%;
+            height: 13vh;
+            border-bottom: solid 10px var(--siyah);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .isim {
+            font-size: 96pt;
+            margin-left: 24pt;
+        }
+
+        .butonlar {
+            font-size: 48pt;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .buton {
+            margin-right: 24pt;
+        }
+
+        .icerik {
+            width: 100%;
+            height: 87vh;
+        }
+
+        .kartlar {
+            width: 100%;
+            height: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .kart {
+            background-color: var(--mavi);
+            width: 20%;
+            height: 80%;
+            border-radius: 31px;
+        }
+
+        .kart>center>img {
+            width: 171px;
+            height: 228px;
+        }
+
+        .bilgi {
+            width: 100%;
+            height: 40%;
+            padding-left: 2%;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="baslik">
+        <span class="isim">Baho</span>
+        <div class="butonlar">
+            <div class="buton">Ana Sayfa</div>
+            <div class="buton"><a href="content.html">Bilgilendirme</a></div>
+            <div class="buton"><a href="about.html">Hakkımda</a></div>
+
+        </div>
+    </div>
+    <div class="icerik">
+        <div class="kartlar">
+            <div class="kart">
+                <center><img src="img/steve.png"></img></center>
+                <center>
+                    <h1>Steve</h1>
+                </center>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            </div>
+
+
+
+
+            <div class="kart">
+                <center><img src="img/steve.png"></img></center>
+                <center>
+                    <h1>Steve</h1>
+                </center>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            </div>
+            <div class="kart">
+                <center><img src="img/steve.png"></img></center>
+                <center>
+                    <h1>Steve</h1>
+                </center>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            </div>
+            <div class="kart">
+                <center><img src="img/steve.png"></img></center>
+                <center>
+                    <h1>Steve</h1>
+                </center>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            </div>
+        </div>
+
+        <div class="bilgi">
+            <h1>Minecart Nedir?</h1>
+            <p>Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ac diam sit amet quam
+                vehicula elementum sed sit amet dui.Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet duiNulla porttitor accumsan tincidunt.
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam
+                vehicula elementum sed sit amet dui. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui</p>
+            <ul>
+                <li><a href="content.html">
+                        <h2>Daha fazla bilgi için
+                    </a></h2>
+                </li>
+                <li><a href="https://google.com/">
+                        <h2>Minecart İndir
+                    </a></h2>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>

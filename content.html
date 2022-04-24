@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baho-Mc-İçerik</title>
+    <style>
+        :root{
+    --yesil:#3B8526;
+    --mavi:#43AA8B;
+    --beyaz:#E6E6E6;
+    --siyah:black;
+}
+
+@font-face {
+    font-family: Margarine;
+    src: url(Margarine-Regular.ttf);
+}
+
+
+body,html{
+    margin:0px;
+    padding:0px;
+
+}
+
+body{
+    background-color:var(--yesil);
+    font-family: Margarine;
+    color: var(--beyaz) ;
+
+}
+
+p{
+    font-size:13pt;
+}
+
+
+.baslik{
+    width:100%;
+    height:13vh;
+    border-bottom: solid 10px var(--siyah);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.isim{
+    font-size:96pt;
+    margin-left: 24pt;
+}
+
+.butonlar{
+    font-size:48pt;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.buton{
+    margin-right: 24pt;
+}
+
+.icerik{
+    width:100%;
+    height:87vh;
+}
+
+.kartlar{
+    width:100%;
+    height:60%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.kart{
+    background-color:var(--mavi);
+    width:20%;
+    height:80%;
+    border-radius:31px;
+}
+
+.kart>center>img{
+    width:171px;
+    height:228px;
+}
+
+.bilgi{
+    width:100%;
+    height:40%;
+    padding-left:2%;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="baslik">
+        <span class="isim">Baho</span>
+        <div class="butonlar">
+            <div class="buton"><a href="index.html">Ana Sayfa</a></div>
+            <div class="buton">Bilgilendirme</div>
+            <div class="buton"><a href="about.html">Hakkımda</a></div>
+        </div>
+    </div>
+    <div class="icerik">
+        <div class="kartlar">
+            <div class="kart">
+                <center><img src="img/kalp.png"></img></center>
+                <center>
+                    <h1>Hayatta Kalma</h1>
+                </center>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            </div>
+
+            <div class="kart">
+                <center><img src="img/elmas.png"></img></center>
+                <center>
+                    <h1>Yaratıcı</h1>
+                </center>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            </div>
+            <div class="kart">
+                <center><img src="img/craft.png"></img></center>
+                <center>
+                    <h1>Maceracı</h1>
+                </center>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            </div>
+            <div class="kart">
+                <center><img src="img/yarikalp.png"></img></center>
+                <center>
+                    <h1>Zorlayıcı</h1>
+                </center>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+            </div>
+        </div>
+
+        <div class="bilgi">
+            <h1>Yaratıklar</h1>
+            <p>Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ac diam sit amet quam
+                vehicula elementum sed sit amet dui.Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+                Vestibulum ac diam sit amet quam vehicula elementum sed sit amet duiNulla porttitor accumsan tincidunt.
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam
+                vehicula elementum sed sit amet dui. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+                dui<br><a href="https://google.com/">Detaylı bilgi için bas</a>
+            
+            </p>
+            <ul>
+                <li>Zombi</li>
+                <li>İskelet</li>
+                <li>Umut</li>
+                <li>Bahonun haşmetlsi</li>
+
+
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>

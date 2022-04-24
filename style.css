@@ -1,0 +1,69 @@
+:root{
+    --yesil:#3B8526;
+    --mavi:#43AA8B;
+    --beyaz:#E6E6E6;
+    --siyah:black;
+}
+
+@font-face {
+    font-family: Margarine;
+    src: url(Margarine-Regular.ttf);
+}
+
+
+body,html{
+    margin:0px;
+    padding:0px;
+
+}
+
+body{
+    background-color:var(--yesil);
+    font-family: Margarine;
+    color: var(--beyaz) ;
+
+}
+p{
+    font-size:13pt;
+}
+
+
+.baslik{
+    width:100%;
+    height:13vh;
+    border-bottom: solid 10px var(--siyah);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.isim{
+    font-size:96pt;
+    margin-left: 24pt;
+}
+
+.butonlar{
+    font-size:48pt;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.buton{
+    margin-right: 24pt;
+}
+
+.icerik{
+    width:100%;
+    height:87vh;
+}
+
+.hobiler{
+    width: 70%;
+    height:100%;
+    float:left;
+}
+.ben{
+    width: 30%;
+    height:100%;
+    float:left;
+}
